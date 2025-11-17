@@ -1,0 +1,89 @@
+.list-of-topics-page-for-chem {
+  position: relative;
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+ background-image: url(/public/home-page@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  text-align: left;
+  font-size: var(--font-size-4xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+
+.one-lifego-achieve {
+  font-size: var(--font-size-45xl);
+  font-weight: 800;
+  color: var(--color-midnightblue);
+  margin: 0;
+  transform: rotate(-0.33deg);
+  transform-origin: 0 0;
+  position: absolute;
+  top: 52.57px;
+  left: 170px;
+}
+
+.subject-btn {
+  cursor: pointer;
+  border: none;
+  padding: 0 1rem;
+  border-radius: var(--br-3xs);
+  height: 65px;
+  font-size: var(--font-size-5xl);
+  font-family: var(--font-inter);
+  color: var(--color-black);
+  background-color: var(--color-thistle-200);
+  transition: background-color 0.3s ease;
+}
+
+.subject-btn.active {
+  background-color: var(--color-slateblue);
+  color: white;
+}
+
+.subject-link {
+  text-decoration: none;
+}
+
+.topics-section {
+  padding: 40px;
+  max-width: 700px;
+}
+
+.topic-btn {
+  cursor: pointer;
+  border: none;
+  padding: 12px 20px;
+  margin: 0 1rem 1rem 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-thistle-200);
+  font-weight: 600;
+  color: var(--color-black);
+  font-size: var(--font-size-4xl);
+}
+
+.content-section {
+  margin-top: 120px;
+  padding: 0 50px;
+}
+
+.instructions-section {
+  margin-top: 60px;
+  color: var(--color-black);
+  font-weight: 600;
+  font-size: var(--font-size-4xl);
+}
+
+.start-quiz-btn {
+  margin-top: 30px;
+  padding: 15px 40px;
+  border-radius: var(--br-3xs);
+  border: none;
+  background-color: var(--color-slateblue);
+  color: white;
+  font-weight: 700;
+  font-size: var(--font-size-4xl);
+  cursor: pointer;
+}

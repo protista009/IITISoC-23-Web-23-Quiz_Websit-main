@@ -2,7 +2,7 @@
   min-height: 100vh;
   background-color: #f8f9fa;
   font-family: 'Arial', sans-serif;
-  background-image: url(/public/home-page@3x.png);
+  background-image: url('/public/home-page@3x.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -111,6 +111,7 @@
   border-radius: 10px;
   min-width: 200px;
   transition: transform 0.3s, box-shadow 0.3s;
+  white-space: nowrap;
 }
 
 .subjectButton:hover {
@@ -121,16 +122,19 @@
 .physics {
   background-color: #ff6b6b;
   border-color: #ff6b6b;
+  color: white;
 }
 
 .chemistry {
   background-color: #4cc9f0;
   border-color: #4cc9f0;
+  color: white;
 }
 
 .maths {
   background-color: #7209b7;
   border-color: #7209b7;
+  color: white;
 }
 
 /* Trending Topics */
@@ -157,10 +161,11 @@
   overflow: hidden;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s;
+  cursor: pointer;
 }
 
 .topicCard:hover {
-  transform: scale(1.5);
+  transform: scale(1.1);
 }
 
 .topicImage {
@@ -184,6 +189,7 @@
   border: 2px solid #3a0ca3;
   object-fit: cover;
   transition: transform 0.3s;
+  cursor: pointer;
 }
 
 .profileIcon:hover {
@@ -237,5 +243,11 @@
 
   .topicGrid {
     grid-template-columns: 1fr;
+  }
+
+  .subjectButton {
+    min-width: 150px;
+    padding: 12px 20px;
+    font-size: 1rem;
   }
 }

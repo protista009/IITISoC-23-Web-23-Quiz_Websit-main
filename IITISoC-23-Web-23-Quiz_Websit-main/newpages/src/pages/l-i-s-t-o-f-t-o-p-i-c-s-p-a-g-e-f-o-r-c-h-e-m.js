@@ -2,6 +2,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import "./ChemistryTopics.css";
+import SolidStatesQuiz from "../SolidStatesQuiz";
 
 const ChemistryTopics = () => {
   return (
@@ -44,7 +45,9 @@ const ChemistryTopics = () => {
           <div className="topics-section">
             <h2 className="section-title">LIST OF CHEMISTRY TOPICS</h2>
             <div className="topics-list">
-              <button className="topic-btn">The Solid States</button>
+               <Link to="/SolidStatesQuiz">
+    <button className="topic-btn">The Solid States</button>
+  </Link>
               <button className="topic-btn">Solutions</button>
               <button className="topic-btn">Electrochemistry</button>
               <button className="topic-btn">Chemical Kinetics</button>

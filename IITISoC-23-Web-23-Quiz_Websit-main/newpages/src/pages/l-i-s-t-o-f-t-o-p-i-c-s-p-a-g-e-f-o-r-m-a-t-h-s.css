@@ -1,0 +1,143 @@
+.one-lifego-achieve1 {
+  margin: 0;
+  position: absolute;
+  top: 52.57px;
+  left: 170px;
+  font-size: var(--font-size-45xl);
+  font-weight: 800;
+  color: var(--color-midnightblue);
+  transform: rotate(-0.33deg);
+  transform-origin: 0 0;
+}
+
+.list-of-topics-page-for-maths-child {
+  margin: 0;
+  position: absolute;
+  top: 165px;
+  left: 0;
+  background-color: var(--color-darkslateblue-100);
+  width: 1440px;
+  height: 88px;
+}
+
+.about-us {
+  position: relative;
+  font-size: var(--font-size-5xl);
+  font-family: var(--font-inter);
+  color: var(--color-black);
+  text-align: left;
+}
+
+/* Button styles for topic navigation */
+.component-13,
+.component-32,
+.component-41,
+.component-33 {
+  cursor: pointer;
+  border: 0;
+  border-radius: var(--br-3xs);
+  position: absolute;
+  width: 153px;
+  height: 65px;
+}
+
+.component-13 {
+  background-color: var(--color-thistle-200);
+  top: 177px;
+  left: 275px;
+}
+
+.component-32 {
+  background-color: var(--color-thistle-200);
+  top: 177px;
+  left: 999px;
+}
+
+.component-41 {
+  background-color: var(--color-slateblue);
+  top: 175px;
+  left: 637px;
+}
+
+.component-33 {
+  background-color: var(--color-thistle-200);
+  top: 260px;
+  left: 1125px;
+}
+
+.list-of-maths,
+.list-of-physics-container {
+  margin: 0;
+  font-size: var(--font-size-5xl);
+  font-weight: 700;
+  color: var(--color-white);
+  white-space: pre-wrap;
+  text-align: left;
+  position: absolute;
+}
+
+.list-of-physics-container {
+  top: 2.89%;
+  left: 5.45%;
+}
+
+.list-of-maths {
+  display: block;
+}
+
+/* Topic section labels */
+.chemistry2,
+.maths1,
+.maths2,
+.physics1,
+.physics2 {
+  position: absolute;
+  font-size: var(--font-size-5xl);
+  font-family: var(--font-inter);
+  color: var(--color-black);
+  text-align: left;
+}
+
+.chemistry2 {
+  top: 27.69%;
+  left: 4.58%;
+}
+
+.maths1 {
+  top: 27.69%;
+  left: 22.88%;
+}
+
+.maths2 {
+  top: 195px;
+  left: 671px;
+}
+
+.physics1 {
+  width: 102px;
+  height: 29px;
+  position: relative;
+}
+
+.physics2 {
+  top: 193px;
+  left: 296px;
+  width: 104px;
+  height: 13px;
+}
+
+/* Main container for the maths topics page */
+.list-of-topics-page-for-maths {
+  position: relative;
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+background-image: url(/public/home-page@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  text-align: left;
+  font-size: var(--font-size-4xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}

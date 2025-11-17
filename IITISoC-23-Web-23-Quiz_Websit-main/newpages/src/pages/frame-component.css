@@ -1,0 +1,155 @@
+.one-lifego-achieve2 {
+  margin: 0;
+  position: absolute;
+  top: 52.57px;
+  left: 170px;
+  font-size: var(--font-size-45xl);
+  font-weight: 800;
+  color: var(--color-midnightblue);
+  transform: rotate(-0.33deg);
+  transform-origin: 0 0;
+}
+
+.property-1default-child {
+  margin: 0;
+  position: absolute;
+  top: 165px;
+  left: 0;
+  background-color: var(--color-darkslateblue-100);
+  width: 100%;
+  max-width: 1440px;
+  height: 88px;
+  box-sizing: border-box;
+}
+
+.subject-navigation {
+  margin-top: 20px;
+}
+
+.subject-btn {
+  cursor: pointer;
+  border: none;
+  padding: 0 1rem;
+  border-radius: var(--br-3xs);
+  height: 65px;
+  font-size: var(--font-size-5xl);
+  font-family: var(--font-inter);
+  color: var(--color-black);
+  background-color: var(--color-thistle-200);
+  transition: background-color 0.3s ease;
+  margin-right: 10px;
+}
+
+.subject-btn.active {
+  background-color: var(--color-slateblue);
+  color: white;
+}
+
+.subject-link {
+  text-decoration: none;
+}
+
+.content-overlay {
+  padding: 20px 50px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.content-section {
+  margin-top: 40px;
+}
+
+.topics-section {
+  margin-bottom: 30px;
+}
+
+.section-title {
+  font-size: var(--font-size-5xl);
+  font-weight: 700;
+  color: var(--color-black);
+  margin-bottom: 20px;
+}
+
+.topics-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.topic-btn {
+  cursor: pointer;
+  border: none;
+  padding: 12px 20px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-thistle-200);
+  font-weight: 600;
+  color: var(--color-black);
+  font-size: var(--font-size-4xl);
+  flex: 1 1 200px;
+  min-width: 160px;
+  text-align: center;
+}
+
+.instructions-section {
+  border-top: 2px solid var(--color-gray);
+  padding-top: 20px;
+}
+
+.instructions-list {
+  list-style: disc inside;
+  line-height: 1.5;
+  font-size: var(--font-size-4xl);
+  margin-bottom: 20px;
+  color: var(--color-black);
+}
+
+.start-quiz-btn {
+  display: block;
+  width: 100%;
+  max-width: 300px;
+  margin-top: 10px;
+  padding: 15px 0;
+  border-radius: var(--br-3xs);
+  border: none;
+  background-color: var(--color-slateblue);
+  color: white;
+  font-weight: 700;
+  font-size: var(--font-size-4xl);
+  cursor: pointer;
+  text-align: center;
+}
+
+.physics-container {
+  position: relative;
+  width: 100%;
+  max-width: 1440px;
+  min-height: 1024px;
+  overflow: hidden;
+  background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), 
+              url('/public/home-page@3x.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  margin: 0 auto;
+  font-family: var(--font-inter);
+  color: var(--color-black);
+  font-size: var(--font-size-4xl);
+}
+
+.profile-container {
+  position: relative;
+}
+
+.profile-image {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.main-title {
+  font-weight: 800;
+  font-size: var(--font-size-45xl);
+  color: var(--color-midnightblue);
+  margin: 10px 0 0 0;
+}

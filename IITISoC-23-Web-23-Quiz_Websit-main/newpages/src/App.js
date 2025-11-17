@@ -14,7 +14,7 @@ import LoginPage11 from "./pages/loginp/LoginPage11";
 import Quiznew from "./pages/quiznew";
 import Homepage from "./pages/home/HomePage";
 import Interval from "./pages/time";
-
+import SolidStatesQuiz from "./SolidStatesQuiz";
 
 
  
@@ -38,7 +38,7 @@ function App() {
     let metaDescription = "";
 
     switch (pathname) {
-      case "/":
+      case "/home":
         title = "";
         metaDescription = "";
         break;
@@ -72,8 +72,8 @@ function App() {
 
   return (
     <Routes>
-      <Route path="/" element ={<LoginPage11 />} />
-       <Route path="/prof" element={<ProfilePage/>}/>
+      {/* <Route path="/" element ={<LoginPage11 />} /> */}
+       <Route path="/" element={<ProfilePage/>}/>
       <Route path="/home" element={<Homepage />} />
 
       <Route path="/list-of-topics-page-for-chem"
@@ -82,6 +82,8 @@ function App() {
       <Route path="/time"
         element={<Interval />}
       />
+      <Route path="/SolidStatesQuiz"
+       element={<SolidStatesQuiz />} />
       
       
       <Route

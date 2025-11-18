@@ -1,6 +1,7 @@
 /* Background Image Styles */
 .chemistry-container {
   position: relative;
+  background-image: url("/public/profile-page@3x.png");
   width: 100%;
   background-image: url(/public/home-page@3x.png);
   min-height: 100vh;

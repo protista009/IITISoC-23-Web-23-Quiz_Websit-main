@@ -1,7 +1,7 @@
 .maths-container {
   position: relative;
   width: 100%;
-   background-image: url(/public/home-page@3x.png);
+  background-image: url("/public/profile-page@3x.png");
   min-height: 100vh;
   overflow: hidden;
 }
@@ -33,12 +33,6 @@
   color: var(--color-black);
   text-align: left;
 }
-
-
-
-
-
-
 
 .list-of-maths {
   display: block;
@@ -95,10 +89,7 @@
   font-weight: 700;
 }
 
-.the-quiz-will-be-of-half-an-ho1 {
-  display: block;
-  font-size: var(--font-size-7xl);
-}
+
 .the-quiz-will-container1 {
   margin: 0;
   position: absolute;

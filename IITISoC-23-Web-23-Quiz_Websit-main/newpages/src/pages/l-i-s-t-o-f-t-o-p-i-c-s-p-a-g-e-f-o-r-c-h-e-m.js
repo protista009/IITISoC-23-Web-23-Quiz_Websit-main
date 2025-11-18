@@ -1,8 +1,8 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import "./ChemistryTopics.css";
-import SolidStatesQuiz from "../SolidStatesQuiz";
+import "./l-i-s-t-o-f-t-o-p-i-c-s-p-a-g-e-f-o-r-c-h-e-m.css";
+import SolidStatesQuiz from "./SolidStatesQuiz";
 
 const ChemistryTopics = () => {
   return (

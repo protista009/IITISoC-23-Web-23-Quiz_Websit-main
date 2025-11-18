@@ -9,7 +9,6 @@
   transform: rotate(-0.33deg);
   transform-origin: 0 0;
 }
-
 .list-of-topics-page-for-maths-child {
   margin: 0;
   position: absolute;
@@ -19,7 +18,6 @@
   width: 1440px;
   height: 88px;
 }
-
 .about-us {
   position: relative;
   font-size: var(--font-size-5xl);
@@ -27,112 +25,538 @@
   color: var(--color-black);
   text-align: left;
 }
-
-/* Button styles for topic navigation */
+.component-1-child {
+  position: relative;
+  background-color: var(--color-gainsboro);
+  width: 152px;
+  height: 65px;
+}
+.about-us1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: var(--font-size-5xl);
+  font-family: var(--font-inter);
+  color: var(--color-gainsboro);
+  text-align: left;
+}
+.physics1 {
+  position: relative;
+  width: 102px;
+  height: 29px;
+}
 .component-13,
-.component-32,
-.component-41,
-.component-33 {
+.component-14 {
+  background-color: var(--color-thistle-200);
+  position: absolute;
+}
+.component-14 {
+  height: 100%;
+  width: 99.35%;
+  top: 0;
+  right: 0.65%;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-lg) var(--padding-6xl);
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+  opacity: 0;
+}
+.component-13 {
   cursor: pointer;
   border: 0;
+  padding: 0;
+  top: 177px;
+  left: 275px;
   border-radius: var(--br-3xs);
-  position: absolute;
   width: 153px;
   height: 65px;
 }
-
-.component-13 {
-  background-color: var(--color-thistle-200);
-  top: 177px;
-  left: 275px;
-}
-
-.component-32 {
-  background-color: var(--color-thistle-200);
-  top: 177px;
-  left: 999px;
-}
-
-.component-41 {
-  background-color: var(--color-slateblue);
-  top: 175px;
-  left: 637px;
-}
-
-.component-33 {
-  background-color: var(--color-thistle-200);
-  top: 260px;
-  left: 1125px;
-}
-
-.list-of-maths,
-.list-of-physics-container {
-  margin: 0;
-  font-size: var(--font-size-5xl);
-  font-weight: 700;
-  color: var(--color-white);
-  white-space: pre-wrap;
-  text-align: left;
+.about-us4 {
   position: absolute;
-}
-
-.list-of-physics-container {
-  top: 2.89%;
-  left: 5.45%;
-}
-
-.list-of-maths {
-  display: block;
-}
-
-/* Topic section labels */
-.chemistry2,
-.maths1,
-.maths2,
-.physics1,
-.physics2 {
-  position: absolute;
+  top: 0;
+  left: 0;
   font-size: var(--font-size-5xl);
   font-family: var(--font-inter);
   color: var(--color-black);
   text-align: left;
 }
-
-.chemistry2 {
-  top: 27.69%;
-  left: 4.58%;
-}
-
-.maths1 {
-  top: 27.69%;
-  left: 22.88%;
-}
-
-.maths2 {
-  top: 195px;
-  left: 671px;
-}
-
-.physics1 {
+.about-us3 {
+  position: relative;
   width: 102px;
   height: 29px;
-  position: relative;
+  display: none;
 }
-
+.component-15 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-lg) var(--padding-6xl);
+  background-color: var(--color-thistle-200);
+  position: absolute;
+  height: 100%;
+  width: 99.35%;
+  top: 0;
+  right: 0.65%;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+  opacity: 0;
+}
+.chemistry2 {
+  position: absolute;
+  top: 27.69%;
+  left: 4.58%;
+  font-size: var(--font-size-5xl);
+  font-family: var(--font-inter);
+  color: var(--color-black);
+  text-align: left;
+ 
+}
+.component-16,
+.component-32 {
+  cursor: pointer;
+  border: 0;
+  position: absolute;
+}
+.component-32 {
+  padding: 0;
+  background-color: var(--color-thistle-200);
+  top: 177px;
+  left: 999px;
+  border-radius: var(--br-3xs);
+  width: 153px;
+  height: 65px;
+}
+.component-16 {
+  padding: var(--padding-lg) var(--padding-6xl);
+  background-color: var(--color-mediumslateblue);
+  height: 100%;
+  width: 99.35%;
+  top: 0;
+  right: 0.65%;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+  opacity: 0;
+}
+.maths1 {
+  position: absolute;
+  top: 27.69%;
+  left: 22.88%;
+  font-size: var(--font-size-5xl);
+  font-family: var(--font-inter);
+  color: var(--color-black);
+  text-align: left;
+}
+.component-41 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-slateblue);
+  position: absolute;
+  top: 175px;
+  left: 637px;
+  border-radius: var(--br-3xs);
+  width: 153px;
+  height: 65px;
+}
+.component-5-child6 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: -1.3%;
+  bottom: 0;
+  left: 1.3%;
+  background-color: var(--color-darkslateblue-100);
+}
+.component-5-child7 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-gainsboro);
+  position: absolute;
+  height: 8.68%;
+  width: 63.38%;
+  top: 84.02%;
+  right: 17.4%;
+  bottom: 7.3%;
+  left: 19.22%;
+  border-radius: var(--br-8xl);
+}
+.electrostatic-potential-and1 {
+  position: absolute;
+  height: 7.71%;
+  width: 67.01%;
+  top: 85.12%;
+  left: 18.7%;
+  font-size: var(--font-size-2xl);
+  display: none;
+}
+.component-5-child8 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-gainsboro);
+  position: absolute;
+  height: 8.68%;
+  width: 63.38%;
+  top: 71.76%;
+  right: 16.88%;
+  bottom: 19.56%;
+  left: 19.74%;
+  border-radius: var(--br-8xl);
+}
+.alternating-current1 {
+  position: absolute;
+  top: 74.24%;
+  left: 22.6%;
+  display: none;
+}
+.component-5-child9 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-gainsboro);
+  position: absolute;
+  height: 8.68%;
+  width: 63.38%;
+  top: 59.5%;
+  right: 17.4%;
+  bottom: 31.82%;
+  left: 19.22%;
+  border-radius: var(--br-8xl);
+}
+.electromagnetic-induction1 {
+  position: absolute;
+  width: 62.6%;
+  top: 60.19%;
+  left: 19.22%;
+  display: none;
+}
+.component-5-child10 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-gainsboro);
+  position: absolute;
+  height: 8.68%;
+  width: 63.38%;
+  top: 47.25%;
+  right: 17.4%;
+  bottom: 44.08%;
+  left: 19.22%;
+  border-radius: var(--br-8xl);
+}
+.magnetism-and-matter1 {
+  position: absolute;
+  width: 54.03%;
+  top: 47.93%;
+  left: 23.9%;
+  font-weight: 600;
+  display: none;
+}
+.list-of-maths {
+  display: block;
+}
+.list-of-physics-container {
+  margin: 0;
+  position: absolute;
+  top: 2.89%;
+  left: 5.45%;
+  font-size: var(--font-size-5xl);
+  font-weight: 700;
+  color: var(--color-white);
+  white-space: pre-wrap;
+  text-align: left;
+}
+.component-5-child11 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-gainsboro);
+  position: absolute;
+  height: 8.68%;
+  width: 63.38%;
+  top: 10.47%;
+  right: 18.7%;
+  bottom: 80.85%;
+  left: 17.92%;
+  border-radius: var(--br-8xl);
+  mix-blend-mode: normal;
+}
+.electric-charges1 {
+  margin: 0;
+}
+.electric-charges-and-container1 {
+  position: absolute;
+  height: 3.99%;
+  width: 60.78%;
+  top: 11.57%;
+  left: 21.82%;
+  display: none;
+}
+.component-5-child12,
+.component-5-child13 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-gainsboro);
+  position: absolute;
+  height: 8.68%;
+  width: 63.38%;
+  top: 22.73%;
+  right: 17.4%;
+  bottom: 68.6%;
+  left: 19.22%;
+  border-radius: var(--br-8xl);
+}
+.component-5-child13 {
+  top: 34.99%;
+  right: 16.88%;
+  bottom: 56.34%;
+  left: 19.74%;
+}
+.moving-charges-and1 {
+  position: absolute;
+  width: 55.32%;
+  top: 35.67%;
+  left: 21.82%;
+  font-weight: 600;
+  display: none;
+}
+.current-electricity1 {
+  position: absolute;
+  top: 25.07%;
+  left: 23.38%;
+  display: none;
+}
+.component-51 {
+  position: absolute;
+  top: 272px;
+  left: 57px;
+  width: 385px;
+  height: 726px;
+  text-align: center;
+}
+.relations-and-functions {
+  font-weight: 600;
+}
+.relations-and-functions-container {
+  margin: 0;
+  position: absolute;
+  top: 353px;
+  left: 133px;
+  text-align: center;
+  display: inline-block;
+  width: 205px;
+}
+.determinants {
+  top: 541px;
+  left: 165px;
+}
+.continuity-and-differentiabili,
+.determinants,
+.integrals {
+  margin: 0;
+  position: absolute;
+  font-weight: 600;
+  text-align: center;
+}
+.continuity-and-differentiabili {
+  top: 618px;
+  left: 141px;
+  display: inline-block;
+  width: 200px;
+}
+.integrals {
+  top: 809px;
+  left: 191px;
+}
+.application-of-derivatives,
+.application-of-integrals {
+  margin: 0;
+  position: absolute;
+  font-weight: 600;
+  text-align: center;
+  display: inline-block;
+}
+.application-of-integrals {
+  top: 887px;
+  left: 121px;
+  font-size: var(--font-size-2xl);
+  width: 236px;
+}
+.application-of-derivatives {
+  top: 705px;
+  left: 151px;
+  width: 168px;
+}
+.ellipse-icon {
+  position: absolute;
+  height: 329.06%;
+  width: 329.06%;
+  top: 67.52%;
+  right: -303.42%;
+  bottom: -296.58%;
+  left: 74.36%;
+  border-radius: 50%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  display: none;
+}
+.component-6-child1 {
+  position: absolute;
+  height: 108.55%;
+  width: 108.55%;
+  top: -4.27%;
+  right: -4.27%;
+  bottom: -4.27%;
+  left: -4.27%;
+  border-radius: var(--br-161xl);
+  background-color: var(--color-lightblue);
+  border: 5px solid var(--color-gray);
+  box-sizing: border-box;
+}
+.profile1 {
+  position: absolute;
+  top: 37.61%;
+  left: 19.66%;
+}
+.component-6-child2 {
+  position: absolute;
+  height: 108.55%;
+  width: 108.55%;
+  top: -4.27%;
+  right: -4.27%;
+  bottom: -4.27%;
+  left: -4.27%;
+  border-radius: var(--br-161xl);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.component-61 {
+  position: absolute;
+  top: 31px;
+  left: 34px;
+  width: 117px;
+  height: 117px;
+  font-size: var(--font-size-5xl);
+}
+.frame-item {
+  position: absolute;
+  top: -306px;
+  left: 449px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-darkslateblue-200);
+  width: 921px;
+  height: 726px;
+}
+.instructions1 {
+  margin: 0;
+  position: absolute;
+  top: -282px;
+  left: 569px;
+  font-size: var(--font-size-10xl);
+  font-weight: 700;
+}
+.blank-line3 {
+  font-weight: 500;
+}
+.the-quiz-will-be-of-half-an-ho1 {
+  display: block;
+  font-size: var(--font-size-7xl);
+}
+.the-quiz-will-container1 {
+  margin: 0;
+  position: absolute;
+  top: -217px;
+  left: 565px;
+  color: var(--color-white);
+  display: inline-block;
+  width: 661px;
+  height: 348px;
+}
+.component-33 {
+  border: 0;
+  padding: 0;
+  background-color: var(--color-thistle-200);
+  position: absolute;
+  top: 260px;
+  left: 1125px;
+  border-radius: var(--br-3xs);
+  width: 153px;
+  height: 65px;
+}
+.start-quiz {
+  margin: 0;
+  position: absolute;
+  top: 298px;
+  left:1115px;
+  font-weight: 500;
+}
+.rectangle-group {
+  position: absolute;
+  top: 403px;
+  left: 461px;
+  width: 921px;
+  height: 595px;
+  font-size: var(--font-size-5xl);
+}
+.matrices {
+  margin: 0;
+  position: absolute;
+  top: 454px;
+  left: 199px;
+  font-weight: 600;
+}
+.chemistry4,
+.maths2,
+.physics2 {
+  margin: 0;
+  position: absolute;
+  top: 195px;
+  left: 671px;
+  font-size: var(--font-size-5xl);
+}
+.chemistry4,
 .physics2 {
   top: 193px;
-  left: 296px;
-  width: 104px;
-  height: 13px;
+  left: 1006px;
 }
-
-/* Main container for the maths topics page */
+.physics2 {
+  left: 296px;
+}
 .list-of-topics-page-for-maths {
   position: relative;
   width: 100%;
   height: 1024px;
   overflow: hidden;
-background-image: url(/public/home-page@3x.png);
+  background-image: url(/public/list-of-topics-page-for--maths@3x.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;

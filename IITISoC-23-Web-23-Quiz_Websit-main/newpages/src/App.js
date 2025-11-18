@@ -4,23 +4,18 @@ import {
   useNavigationType,
   useLocation,
 } from "react-router-dom";
-
+import { useEffect } from "react";
 import LISTOFTOPICSPAGEFORCHEM from "./pages/l-i-s-t-o-f-t-o-p-i-c-s-p-a-g-e-f-o-r-c-h-e-m";
 import LISTOFTOPICSPAGEFORMATHS from "./pages/l-i-s-t-o-f-t-o-p-i-c-s-p-a-g-e-f-o-r-m-a-t-h-s";
 import FrameComponent from "./pages/frame-component";
-import { useEffect } from "react";
+
 import ProfilePage from "./pages/prof/ProfilePage"
 import LoginPage11 from "./pages/loginp/LoginPage11";
-import Quiznew from "./pages/quiznew";
+// import Quiznew from "./pages/quiznew";
 import Homepage from "./pages/home/HomePage";
-import Interval from "./pages/time";
-import SolidStatesQuiz from "./SolidStatesQuiz";
+// import Interval from "./pages/time";
+import SolidStatesQuiz from "./pages/SolidStatesQuiz";
 
-
- 
-  
-    
-      
 
 function App() {
   const action = useNavigationType();
@@ -79,9 +74,9 @@ function App() {
       <Route path="/list-of-topics-page-for-chem"
         element={<LISTOFTOPICSPAGEFORCHEM />}
       />
-      <Route path="/time"
+      {/* <Route path="/time"
         element={<Interval />}
-      />
+      /> */}
       <Route path="/SolidStatesQuiz"
        element={<SolidStatesQuiz />} />
       
@@ -90,7 +85,7 @@ function App() {
         path="/list-of-topics-page-for-maths"
         element={<LISTOFTOPICSPAGEFORMATHS />}
       />
-      <Route path="/quiznew" element={<Quiznew />} />
+    
       <Route path="/frame-6" element={<FrameComponent />} />
     </Routes>
 

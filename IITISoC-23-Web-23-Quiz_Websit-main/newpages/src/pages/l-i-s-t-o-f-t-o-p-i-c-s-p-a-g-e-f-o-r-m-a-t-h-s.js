@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
-import "./MathsTopics.css";
+// import "./MathsTopics.css";
+import "./l-i-s-t-o-f-t-o-p-i-c-s-p-a-g-e-f-o-r-m-a-t-h-s.css";
 
 const MathsTopics = () => {
   return (

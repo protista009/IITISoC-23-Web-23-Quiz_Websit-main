@@ -2,27 +2,17 @@
 .physics-container {
   position: relative;
   width: 100%;
+  background-image: url(/public/home-page@3x.png);
   min-height: 100vh;
   overflow: hidden;
 }
 
-.background-image {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-image: url(/public/home-page@3x.png);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  z-index: -1;
-}
+
 
 .content-overlay {
   position: relative;
   z-index: 1;
-  
+  background-color: rgba(255, 255, 255, 0.9);
   min-height: 100vh;
 }
 
@@ -30,6 +20,23 @@
 .header-section {
   text-align: center;
   padding: 30px 20px 20px;
+}
+
+.profile-container {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 60px;
+  height: 60px;
+}
+
+.profile-image {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border: 3px solid #7e7e7e;
+  box-sizing: border-box;
+  object-fit: cover;
 }
 
 .main-title {
@@ -45,6 +52,9 @@
   gap: 20px;
   margin-bottom: 30px;
   flex-wrap: wrap;
+  background-color: #3a2c7a;
+  padding: 15px;
+  border-radius: 8px;
 }
 
 .subject-btn {
@@ -66,6 +76,11 @@
 .subject-btn:hover {
   transform: translateY(-2px);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.subject-link {
+  text-decoration: none;
+  color: inherit;
 }
 
 /* Content Section */
@@ -186,45 +201,4 @@
   .topics-section, .instructions-section {
     padding: 20px 15px;
   }
-  /* Add this to your PhysicsTopics.css */
-.subject-link {
-  text-decoration: none;
-  color: inherit;
-}
-
-.subject-link:hover {
-  text-decoration: none;
-}
-/* Profile Icon Styles */
-.profile-icon-container {
-  position: absolute;
-  top: 20px;
-  right: 20px;
-  width: 60px;
-  height: 60px;
-  z-index: 10;
-}
-
-.profile-icon {
-  width: 100%;
-  height: 100%;
-  border-radius: 50%;
-  border: 3px solid #7e7e7e;
-  box-sizing: border-box;
-  object-fit: cover;
-  cursor: pointer;
-  transition: transform 0.3s;
-}
-
-.profile-icon:hover {
-  transform: scale(1.1);
-}
-
-/* Adjust header section to accommodate profile icon */
-.header-section {
-  position: relative;
-  text-align: center;
-  padding: 30px 20px 20px;
-  margin-bottom: 30px;
-}
 }

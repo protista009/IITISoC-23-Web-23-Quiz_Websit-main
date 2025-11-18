@@ -1,0 +1,134 @@
+.maths-container {
+  position: relative;
+  width: 100%;
+   background-image: url(/public/home-page@3x.png);
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.one-lifego-achieve1 {
+  margin: 0;
+  position: absolute;
+  top: 52.57px;
+  left: 170px;
+  font-size: var(--font-size-45xl);
+  font-weight: 800;
+  color: var(--color-midnightblue);
+  transform: rotate(-0.33deg);
+  transform-origin: 0 0;
+}
+.list-of-topics-page-for-maths-child {
+  margin: 0;
+  position: absolute;
+  top: 165px;
+  left: 0;
+  background-color: var(--color-darkslateblue-100);
+  width: 1440px;
+  height: 88px;
+}
+.about-us {
+  position: relative;
+  font-size: var(--font-size-5xl);
+  font-family: var(--font-inter);
+  color: var(--color-black);
+  text-align: left;
+}
+
+
+
+
+
+
+
+.list-of-maths {
+  display: block;
+}
+.list-of-physics-container {
+  margin: 0;
+  position: absolute;
+  top: 2.89%;
+  left: 5.45%;
+  font-size: var(--font-size-5xl);
+  font-weight: 700;
+  color: var(--color-white);
+  white-space: pre-wrap;
+  text-align: left;
+}
+
+.ellipse-icon {
+  position: absolute;
+  height: 329.06%;
+  width: 329.06%;
+  top: 67.52%;
+  right: -303.42%;
+  bottom: -296.58%;
+  left: 74.36%;
+  border-radius: 50%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  display: none;
+}
+
+.profile1 {
+  position: absolute;
+  top: 37.61%;
+  left: 19.66%;
+}
+
+.frame-item {
+  position: absolute;
+  top: -306px;
+  left: 449px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-darkslateblue-200);
+  width: 921px;
+  height: 726px;
+}
+.instructions1 {
+  margin: 0;
+  position: absolute;
+  top: -282px;
+  left: 569px;
+  font-size: var(--font-size-10xl);
+  font-weight: 700;
+}
+
+.the-quiz-will-be-of-half-an-ho1 {
+  display: block;
+  font-size: var(--font-size-7xl);
+}
+.the-quiz-will-container1 {
+  margin: 0;
+  position: absolute;
+  top: -217px;
+  left: 565px;
+  color: var(--color-white);
+  display: inline-block;
+  width: 661px;
+  height: 348px;
+}
+
+.start-quiz {
+  margin: 0;
+  position: absolute;
+  top: 298px;
+  left:1115px;
+  font-weight: 500;
+}
+
+.list-of-topics-page-for-maths {
+  position: relative;
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  background-image: url(/public/list-of-topics-page-for--maths@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  text-align: left;
+  font-size: var(--font-size-4xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}

@@ -5,8 +5,8 @@ import {
   useLocation,
 } from "react-router-dom";
 import { useEffect } from "react";
-import LISTOFTOPICSPAGEFORCHEM from "./pages/l-i-s-t-o-f-t-o-p-i-c-s-p-a-g-e-f-o-r-c-h-e-m";
-import LISTOFTOPICSPAGEFORMATHS from "./pages/l-i-s-t-o-f-t-o-p-i-c-s-p-a-g-e-f-o-r-m-a-t-h-s";
+import LISTOFTOPICSPAGEFORCHEM from "./pages/chempage";
+import LISTOFTOPICSPAGEFORMATHS from "./pages/mathspage";
 import FrameComponent from "./pages/frame-component";
 
 import ProfilePage from "./pages/prof/ProfilePage"
@@ -37,11 +37,11 @@ function App() {
         title = "";
         metaDescription = "";
         break;
-      case "/list-of-topics-page-for-chem":
+      case "/chempage":
         title = "";
         metaDescription = "";
         break;
-      case "/list-of-topics-page-for-maths":
+      case "/mathspage":
         title = "";
         metaDescription = "";
         break;
@@ -71,7 +71,7 @@ function App() {
        <Route path="/" element={<ProfilePage/>}/>
       <Route path="/home" element={<Homepage />} />
 
-      <Route path="/list-of-topics-page-for-chem"
+      <Route path="/chempage"
         element={<LISTOFTOPICSPAGEFORCHEM />}
       />
       {/* <Route path="/time"
@@ -82,7 +82,7 @@ function App() {
       
       
       <Route
-        path="/list-of-topics-page-for-maths"
+        path="/mathspage"
         element={<LISTOFTOPICSPAGEFORMATHS />}
       />
     

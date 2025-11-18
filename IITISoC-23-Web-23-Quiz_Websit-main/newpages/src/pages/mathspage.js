@@ -1,12 +1,10 @@
-import "bootstrap/dist/css/bootstrap.min.css";
-import { Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import "./l-i-s-t-o-f-t-o-p-i-c-s-p-a-g-e-f-o-r-c-h-e-m.css";
-import SolidStatesQuiz from "./SolidStatesQuiz";
+// import "./MathsTopics.css";
+import "./mathspage.css";
 
-const ChemistryTopics = () => {
+const MathsTopics = () => {
   return (
-    <div className="chemistry-container">
+    <div className="maths-container">
       {/* Background Image Div */}
       <div className="background-image"></div>
       
@@ -31,35 +29,33 @@ const ChemistryTopics = () => {
               <button className="subject-btn">PHYSICS</button>
             </Link>
             
-            <button className="subject-btn active">CHEMISTRY</button>
-            
-            <Link to="/list-of-topics-page-for-maths" className="subject-link">
-              <button className="subject-btn">MATHS</button>
+            <Link to="/chempage" className="subject-link">
+              <button className="subject-btn">CHEMISTRY</button>
             </Link>
+            
+            <button className="subject-btn active">MATHS</button>
           </div>
         </div>
 
         {/* Main Content */}
         <div className="content-section">
-          {/* Chemistry Topics */}
+          {/* Maths Topics */}
           <div className="topics-section">
-            <h2 className="section-title">LIST OF CHEMISTRY TOPICS</h2>
+            <h2 className="section-title">LIST OF MATHS TOPICS</h2>
             <div className="topics-list">
-               <Link to="/SolidStatesQuiz">
-    <button className="topic-btn">The Solid States</button>
-  </Link>
-              <button className="topic-btn">Solutions</button>
-              <button className="topic-btn">Electrochemistry</button>
-              <button className="topic-btn">Chemical Kinetics</button>
-              <button className="topic-btn">Surface Chemistry</button>
-              <button className="topic-btn">Amines</button>
-              <button className="topic-btn">Biomolecules</button>
+              <button className="topic-btn">Relations and Functions</button>
+              <button className="topic-btn">Matrices</button>
+              <button className="topic-btn">Determinants</button>
+              <button className="topic-btn">Continuity and Differentiability</button>
+              <button className="topic-btn">Application of Derivatives</button>
+              <button className="topic-btn">Integrals</button>
+              <button className="topic-btn">Application of Integrals</button>
             </div>
           </div>
 
           {/* Instructions Section */}
           <div className="instructions-section">
-            <h2 className="section-title">CHEMISTRY Instructions:</h2>
+            <h2 className="section-title">MATHS Instructions:</h2>
             <ul className="instructions-list">
               <li>The quiz will be of half an hour duration.</li>
               <li>You can attempt the quiz only once.</li>
@@ -75,4 +71,4 @@ const ChemistryTopics = () => {
   );
 };
 
-export default ChemistryTopics;
+export default MathsTopics;

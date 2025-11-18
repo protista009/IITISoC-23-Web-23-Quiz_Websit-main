@@ -29,12 +29,12 @@ const PhysicsTopics = () => {
             <button className="subject-btn active">PHYSICS</button>
             
             {/* Chemistry Button with Link */}
-            <Link to="/list-of-topics-page-for-chem" className="subject-link">
+            <Link to="/chempage" className="subject-link">
               <button className="subject-btn">CHEMISTRY</button>
             </Link>
             
             {/* Maths Button with Link */}
-            <Link to="/list-of-topics-page-for-maths" className="subject-link">
+            <Link to="/mathspage" className="subject-link">
               <button className="subject-btn">MATHS</button>
             </Link>
           </div>
@@ -52,12 +52,13 @@ const PhysicsTopics = () => {
               <button className="topic-btn">Magnetism And Matter</button>
               <button className="topic-btn">Electromagnetic Induction</button>
               <button className="topic-btn">Alternating Current</button>
+              <button className="topic-btn">Motions</button>
             </div>
           </div>
 
           {/* Instructions Section */}
           <div className="instructions-section">
-            <h2 className="section-title">CHEMISTRY Instructions:</h2>
+            <h2 className="section-title">PHYSICS Instructions:</h2>
             <ul className="instructions-list">
               <li>The quiz will be of half an hour duration.</li>
               <li>You can attempt the quiz only once.</li>
